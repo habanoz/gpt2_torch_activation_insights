@@ -3,6 +3,9 @@ from typing import Any
 
 class AllocatedMemContext:
     """
+    @attribution:
+    https://github.com/determined-ai/determined-examples/blob/main/blog/act-mem-2/act_mem.py
+
     Context manager which captures the allocated GPU memory at context exit and the change between
     enter and exit.
 
